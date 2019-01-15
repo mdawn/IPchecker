@@ -24,7 +24,7 @@ and
 I want to approve only IP addresses from Canada, the US, the UK, Sweden, and Australia.
 A user with the IP address of `1.1.4.22` wants to log into my UI. 
 
-**STEP 1**: Clone this repository. Cd into the directory. Run `go run main.go`.
+**STEP 1**: Clone this repository. Cd into the directory. Run `go get github.com/oschwald/geoip2-golang` & `go run main.go`.
 
 **STEP 2**: Look up the [2-letter GeoName country codes](http://www.geonames.org/countries/) for the countries on the whitelist. 
 
@@ -48,4 +48,5 @@ Uh oh! Looks like our incoming IP address is from ountry code `CN`. That's not i
 
 ## What Would Make It Better <br>
 
-A [GraphQL](https://graphql.org/) endpoint
+* Robust error handling
+* A [GraphQL](https://graphql.org/) endpoint

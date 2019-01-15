@@ -46,7 +46,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 // Compares incoming IP address country_iso_code to whitelisted country_iso_codes
 func inWhiteList(c string, whitelist string) bool {
 	inList := (strings.Contains(whitelist, c))
-	fmt.Println(inList)
 	return inList
 }
 
