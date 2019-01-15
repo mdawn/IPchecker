@@ -41,7 +41,7 @@ In our case:
 
 The browser returns:
 
-`STATUS = DENIED, Incoming IP 1.1.4.22 maps to ISO country code CN WHITELIST REFERENCE = CA,CN,US,GB,AU`
+`STATUS = DENIED, Incoming IP 1.1.4.22 maps to ISO country code CN WHITELIST REFERENCE = CA,US,GB,SE,AU`
 
 Uh oh! Looks like our incoming IP address is from ountry code `CN`. That's not in our list. DENIED!
 
