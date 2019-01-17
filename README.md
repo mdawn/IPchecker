@@ -43,10 +43,10 @@ The browser returns:
 
 `STATUS = DENIED, Incoming IP 1.1.4.22 maps to ISO country code CN WHITELIST REFERENCE = CA,US,GB,SE,AU`
 
-Uh oh! Looks like our incoming IP address is from ountry code `CN`. That's not in our list. DENIED!
+Uh oh! Looks like our incoming IP address is from country code `CN`. That's not in our list. DENIED!
 
 
 ## What Would Make It Better <br>
 
 * Robust error handling
-* A [GraphQL](https://graphql.org/) endpoint
+* A [GraphQL](https://graphql.org/) endpoint 
